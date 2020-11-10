@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:background="@color/colorAccent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nguoimoichoi" />
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/colorPrimary"
+            android:scaleType="fitCenter"
+            android:src="@drawable/vongcanon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:text="Nguoi Moi Choi"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_marginLeft="60dp"
+            android:text="Vong Canon"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nhacmoi"
+            android:background="@color/colorPrimary"/>
+        <ImageButton
+            android:layout_marginLeft="50dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bolero"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:text="Nhac Tre Moi"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_marginLeft="80dp"
+            android:text="Bolero"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:weightSum="8"
+        android:background="#ABB6CA"
+        android:orientation="horizontal">
+        <ImageView android:layout_width="0dp"
+            android:id="@+id/imPrev"
+            android:layout_weight="2"
+            android:src="@drawable/hac"
+            android:layout_height="70dp"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            />
+        <ImageView android:layout_width="0dp"
+            android:id="@+id/imPlay"
+            android:layout_weight="2"
+            android:src="@drawable/yeuthich"
+            android:layout_height="70dp"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            />
+        <ImageView android:layout_width="0dp"
+            android:id="@+id/imloop"
+            android:layout_weight="2"
+            android:src="@drawable/baihatmoinhat"
+            android:layout_height="70dp"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            />
+
+        <ImageView android:layout_width="10dp"
+            android:id="@+id/imNext"
+            android:layout_weight="2"
+            android:src="@drawable/baihoc"
+            android:layout_height="70dp"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            />
+
+    </LinearLayout>
+</LinearLayout>
